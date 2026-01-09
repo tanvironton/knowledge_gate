@@ -51,6 +51,7 @@
   transform: scale(1.02); 
   box-shadow: 0 5px 15px rgba(48, 184, 104, 0.3);
 }
+
 /* Banner Style */
 
 .hero{
@@ -154,4 +155,232 @@ box-shadow: 0 5px 15px rgba(48, 184, 104, 0.3);
 
 .secondary-btn:hover{
 background: rgba(255,255,255,0.1);
+}
+
+
+
+
+
+
+/* Note Section CSS-------------------- */
+.problems-section{
+width: 100%;
+padding: 60px 20px;
+text-align: center;
+font-family: Arial, sans-serif;
+}
+
+/* Main Title */
+.main-title{
+font-size: 48px;
+font-weight: 700;
+color: #0f2b46;
+margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle{
+font-size: 16px;
+color: #6b7280;
+margin-bottom: 40px;
+}
+
+/* Cards container */
+.card-container{
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: nowrap;
+}
+
+/* Each card */
+.problem-card{
+width: 300px;
+
+padding: 25px 15px 30px 15px;
+border-radius: 12px;
+background: white;
+box-shadow: 0 0 8px rgba(0,0,0,0.08);
+}
+
+/* Icon circle */
+.icon-circle{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+background-color: #f46c5d;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto 12px auto;
+}
+
+/* Icon image */
+.icon-circle img{
+width: 28px;
+height: 28px;
+}
+
+/* Card titles */
+.problem-card h3{
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 8px;
+color: #0f2b46;
+}
+
+/* Card description */
+.problem-card p{
+font-size: 16px;
+color: #6b7280;
+}
+
+
+
+
+
+
+
+/* Solution Section CSS--------- */
+
+.solution-section {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 80px;
+padding: 80px 5%;
+background-color: #ffffff;
+font-family: sans-serif;
+}
+
+/* Left Image Styling */
+.solution-image img {
+max-width: 500px;
+height: auto;
+}
+
+/* Right Content Styling */
+.solution-content {
+max-width: 550px;
+}
+
+.section-message {
+color: #30B868;
+font-size: 14px;
+font-weight: 600;
+letter-spacing: 1px;
+display: block;
+margin-bottom: 15px;
+}
+
+.section-title {
+font-size: 48px;
+font-weight: 700;
+color: #0f2032;
+line-height: 1.2;
+margin: 0 0 20px 0;
+}
+
+.section-description {
+font-size: 16px;
+color: #555;
+line-height: 1.6;
+margin-bottom: 30px;
+}
+
+/* List Items Styling */
+.solution-list {
+list-style: none;
+padding: 0;
+}
+
+.solution-list li {
+font-size: 16px;
+color: #0f2032;
+font-weight: 500;
+margin-bottom: 15px;
+display: flex;
+align-items: center;
+}
+
+/* Adding the Checkmark Icon */
+.solution-list li::before {
+content: "✔";
+color: #30B868;
+font-weight: bold;
+margin-right: 12px;
+background-color: rgba(48, 184, 104, 0.1);
+width: 24px;
+height: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+font-size: 12px;
+}
+/* Ready To Think CSS */
+
+
+.early-access {
+display: flex;
+justify-content: center;
+padding: 80px 0;
+background-color: #ffffff;
+}
+
+.cta-container {
+width: 1360px;
+background-color: #f9f8f4;
+padding: 80px 20px;
+border-radius: 12px;
+text-align: center;
+font-family: sans-serif;
+}
+
+.cta-title {
+font-size: 40px;
+font-weight: 700;
+color: #0f2032;
+margin: 0 0 15px 0;
+}
+
+.cta-subtitle {
+font-size: 16px;
+color: #666;
+max-width: 600px;
+margin: 0 auto 30px auto;
+line-height: 1.5;
+}
+
+/* Button Styling */
+.btn-early-access {
+background-color: #30B868;
+color: white;
+border: none;
+padding: 14px 28px;
+border-radius: 6px;
+font-size: 16px;
+font-weight: 600;
+display: inline-flex;
+align-items: center;
+gap: 10px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.btn-icon {
+height: 16px; /* Size for the arrow image */
+}
+
+/* Button Hover Effect */
+.btn-early-access:hover {
+background-color: #28a35c;
+transform: scale(1.02);
+box-shadow: 0 5px 15px rgba(48, 184, 104, 0.3);
+}
+
+.cta-footer-text {
+margin-top: 25px;
+font-size: 14px;
+color: #888;
 }
