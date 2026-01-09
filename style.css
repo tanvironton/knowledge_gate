@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+/* Left logo */
+.logo img {
+  height: 40px;
+}
+
+/* Center menu */
+.menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+.menu a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+/* Right button */
+.nav-btn button {
+    font-size: 16px;
+  background-color: #30B868;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.nav-btn button:hover {
+  background-color: #28a35c;
+  transform: scale(1.02); 
+  box-shadow: 0 5px 15px rgba(48, 184, 104, 0.3);
+}
