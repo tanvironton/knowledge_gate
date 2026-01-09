@@ -51,3 +51,107 @@
   transform: scale(1.02); 
   box-shadow: 0 5px 15px rgba(48, 184, 104, 0.3);
 }
+/* Banner Style */
+
+.hero{
+width: 100%;
+height: 80vh;
+background-image: url('./assets/hero-bg.png');
+background-size: cover;
+background-position: center;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+padding: 0 20px;
+}
+
+/* Dark overlay */
+.overlay{
+position: absolute;
+inset: 0;
+background: rgba(0, 30, 60, 0.65);
+}
+
+/* Content */
+.hero-content{
+position: relative;
+max-width: 900px;
+}
+
+.headline {
+font-weight:700;
+font-size: 74px !important;
+font-family: inter;
+}
+/* Tag */
+.tag{
+display: inline-block;
+background: white;
+color: #1d7a4a;
+padding: 6px 18px;
+border-radius: 20px;
+font-size: 14px;
+margin-bottom: 20px;
+}
+
+/* Heading */
+.hero h1{
+font-size: 44px;
+line-height: 1.2;
+margin-bottom: 15px;
+font-weight: 800;
+}
+
+.hero h1 span{
+color: #30B868;
+}
+
+/* Sub text */
+.sub-text{
+font-size: 18px;
+max-width: 750px;
+margin: 0 auto 25px auto;
+opacity: 0.9;
+}
+
+/* Buttons area */
+.buttons{
+margin-top: 10px;
+}
+
+/* Primary button */
+.primary-btn{
+background: #30B868;
+color: white;
+border: none;
+padding: 12px 22px;
+border-radius: 6px;
+cursor: pointer;
+margin-right: 10px;
+font-size: 16px;
+}
+
+/* Secondary button */
+.secondary-btn{
+background: transparent;
+color: white;
+border: 1px solid white;
+padding: 12px 22px;
+border-radius: 6px;
+cursor: pointer;
+font-size: 16px;
+}
+
+/* Hover effects */
+.primary-btn:hover{
+background-color: #28a35c;
+transform: scale(1.02);
+box-shadow: 0 5px 15px rgba(48, 184, 104, 0.3);
+}
+
+.secondary-btn:hover{
+background: rgba(255,255,255,0.1);
+}
